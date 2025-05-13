@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site With Bootstrap</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <style>
+      html, body {
+        height: 100%;
+      }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar bg-body-tertiary navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="assets/bootstrap-fill.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Bootstrap
+          </a>
+      
+          <!-- Botão hambúrguer -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Itens da navbar -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/data">Data</a>
+              </li>
+            </ul>
+            <!-- Botões de ação -->
+            <div class="d-flex">
+              <a href="/users/signup" class="btn btn-outline-warning me-2">Sign up</a>
+              <a href="/users/signin" class="btn btn-primary">Sign in</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    
